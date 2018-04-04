@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	<logger name="jdbc" level="OFF" />
+	<logger name="jdbc.sqltiming" level="DEBUG" />
+	<logger name="kr.co.kpcard" level="DEBUG" />
+	<!-- 개발시 파라미터 맵핑 정보가 필요할경우 추가 -->
+<!-- 	<logger name="org.hibernate.type" level="TRACE" /> 
+	<logger name="org.hibernate.type.BasicTypeRegistry" level="WARN" /> -->
+</configuration>
